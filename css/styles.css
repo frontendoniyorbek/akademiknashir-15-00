@@ -113,7 +113,44 @@ body {
 	opacity: 0.6;
 }
 
-/*
-Roboto
-Roboto Condensed
- */
+.hero {
+	background-color: #252420;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.hero-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-info {
+	max-width: 387px;
+	width: 100%;
+}
+
+.hero-line {
+	display: block;
+	width: 80px;
+	height: 3px;
+	background-color: #ff7500;
+	margin-bottom: 40px;
+}
+
+.hero-title {
+	font-family: 'Roboto Condensed', serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	margin-bottom: 24px;
+}
+.hero-text {
+	margin-bottom: 32px;
+}
+
+.hero-img {
+	margin-top: -40px;
+}
